@@ -1,0 +1,140 @@
+main{
+    height: 100vh;
+    width: 100%;
+    background: url(ondas.svg) no-repeat bottom #22193F;
+    background-position-y: 400px;
+    position: absolute;
+
+}
+
+/* contenedor principal */
+.container{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    position: relative;
+
+}
+/* ----------------------- */
+
+
+/* contenedor row */
+.principal{
+    width: 100%;
+    height: 50vh;
+    margin: 0;
+}
+/* ---------------------------- */
+
+
+/* parte de la foto */
+.contFoto{
+    height: 50vh;
+    background: url(img-login.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* ---------------------------------------------- */
+
+
+/* modificacion del h2 de la foto */
+.tituloPrin{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+/* -------------------------------------------- */
+
+
+/* parte del formulario */
+.contFormulario{
+    height: 50vh;
+    background-color: white;
+    padding: 30px;
+}
+
+/* contenido del  h2 del formulario */
+.tituloFormulario{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #22193F;
+    font-size: 28px;
+    margin-bottom: 30px;
+    
+}
+/* ----------------------------------------- */
+
+
+/* modiicacion de inputs */
+.contGmail{
+    width: 100%;
+}
+
+.contPass{
+    width: 100%;
+}
+/* ------------------------------------------------- */
+
+
+/* color de los iconos svg */
+svg{
+    fill:#22193F;
+}
+/* ------------------------------------------------- */
+
+
+/* pregunta de contrasena */
+.pregunta{   
+    text-align: end;
+}
+
+.preguntaDeContra{
+    color: #E21982;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+}
+/* ------------------------------ */
+
+
+/* bordes de los inputs */
+.form-control{
+    border-top: 1px solid #95868d;
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #95868d;
+    border-right: 1px solid #95868d;  
+    border-radius: 30px;
+}
+
+.input-group-text{
+    border-top: 1px solid #95868d;
+    border-left: 1px solid #95868d;
+    border-bottom: 1px solid #95868d;
+    border-right: 1px solid #ffffff;  
+    border-radius: 30px;
+}
+/* ------------------------------------- */
+
+
+/* boton de ingresar */
+.gap-2{
+    width: 100%;
+    margin-top: 10%;;
+    position:relative;
+}
+
+.btn-primary{
+    background-color: #E21982;
+    border-color: #E21982;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+/* --------------------------------------- */
+
+
+
+
